@@ -11,3 +11,4 @@ jobs: #The jobs that run in this workflow
        run: | # the command(s) to run in this step, in this case multiple steps
          echo: "Hello World" # the first command that prints "Hello World"
          echo: "This is Deepak" # the second command that prints "Hello this is Deepak"
+      - name: run date commnd
